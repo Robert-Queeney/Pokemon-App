@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
+import Pokelist from './Pokelist'; 
 import './styles/App.css';
 
-
 class App extends Component {
-  render() {
+  constructor() {
+    super(); 
+    this.state = {}; 
+  }
+
+  render()  {
     return (
-      <div className="App">
-        hellohello
-      </div>
+    <div className="App">
+      <Pokelist />
+    </div>
     );
   }
 }
 
-
 export default App;
-
