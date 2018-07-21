@@ -1,0 +1,9 @@
+class Pokemon {
+    constructor(data) {
+        this.id = data.id; 
+        this.name = data.name; 
+        this.sprite = data.sprites.font_default; 
+        this.type = data.types[0].type.name; 
+    }
+}
+export default Pokemon; 
